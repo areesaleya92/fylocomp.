@@ -1,0 +1,140 @@
+body{
+    background-color: #0C122C;
+    background-image: url(../assets/imgs/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 86em 21em;
+    background-position: bottom;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    position: relative;
+}
+
+
+.logo{
+    background-color: #1D2C67;
+    border-radius: 7px 120px 7px 7px;
+    padding: 15px;
+    width: 20em;
+    height: 10em;
+    margin: 15em 1em 0em 15em;
+    float: left;
+}
+
+.fylo_logo{
+    padding: 28px 41px;
+}
+
+.btn{
+    height: 25px;
+    width: 25px;
+    background-color:#0C122C ;
+    padding: 12px;
+    margin: 7px;
+    border-radius: .4em;
+}
+
+.doc{
+    margin-left: 32px;
+}
+
+.remain{
+    z-index: 1;
+    left: 65em;
+    position: absolute;
+    top: 14.8em;
+}
+
+.remainder{
+  position: relative;
+  height: 87px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 1em;
+  bottom: 69px;
+  right: 61px;
+}
+
+.extra{
+    position: relative;
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 0px solid transparent;
+    border-top: 50px solid #fff;
+    left: 29.87em;
+    bottom: 4px;
+}
+
+#buttons{
+    padding-top: 4px;
+}
+
+.tracker{
+    border-radius: 15px;
+    background: #1D2C67;
+    padding: 20px; 
+    width: 32em;
+    height: 8em; 
+    float: left;
+    margin: 331px 0px 0px 32px;
+    color: white;
+}
+
+.used{
+    margin-left: 2px;
+    margin-top: -9px;
+}
+
+.bar{
+    padding: 3px;
+    border-radius: 30px;
+    background: #0C122C;  
+  }
+  
+  .progress{
+    width: 81.5%; 
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 18px;
+    border-radius: 30px; 
+  }
+  
+  .circle{
+      height:18px;
+      width: 1rem;
+      background-color: white;
+      border-radius: 50%;
+      position:absolute;
+      margin-left: 496px;
+  }
+
+  .start{
+      font-size: 14px;
+  }
+
+  .end{
+      font-size: 14px;
+      position: relative;
+      left: 39em;
+  }
+
+  .remaining_gb{
+      color: black;
+      text-align: center;
+      font-size: 50px;
+      padding: 10px;
+      font-weight: bold;
+  }
+
+.left{
+    font-size: 15px;
+    position: relative;
+    bottom: 6px;
+    color: #848794;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
